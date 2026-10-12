@@ -21,6 +21,17 @@ This lab accompanies the Week 4 notes, [*Data Wrangling I - Loading, Cleaning an
 - [ ] For each of the files, display the first few rows of the file.
 
 ::: {.solution}
+```{r}
+#| message: false
+library(tidyverse)
+read_csv("data/part1.csv")
+read_delim("data/part1/data2.txt"),delim="\t")
+read_delim("data/part1/data3" , delim=",")
+
+data |>head()
+```
+
+
 
 :::
 
